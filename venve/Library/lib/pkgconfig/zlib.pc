@@ -1,0 +1,13 @@
+prefix=C:/Users/delve/OneDrive/Desktop/Outline End to End ML/venve/Library
+exec_prefix=C:/Users/delve/OneDrive/Desktop/Outline End to End ML/venve/Library
+libdir=C:/Users/delve/OneDrive/Desktop/Outline End to End ML/venve/Library/lib
+sharedlibdir=C:/Users/delve/OneDrive/Desktop/Outline End to End ML/venve/Library/lib
+includedir=C:/Users/delve/OneDrive/Desktop/Outline End to End ML/venve/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
